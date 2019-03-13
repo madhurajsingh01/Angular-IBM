@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'day3';
+  favCountry = '';
+
+  showCountry(event) {
+    this.favCountry = event;
+  }
 }
